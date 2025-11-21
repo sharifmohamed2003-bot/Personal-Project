@@ -6,6 +6,10 @@ import shutil
 from CWPreprocessing import convert_all_csv_in_folder
 import time
 
+
+"""to run the tests: pytest -v"""
+
+
 def wait_for_file_release(path, timeout=5):
     """Wait until Windows releases the SQLite file lock."""
     start = time.time()
